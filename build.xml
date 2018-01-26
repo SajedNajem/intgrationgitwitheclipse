@@ -1,5 +1,5 @@
 <project deafault="compile">
-  <property name="src.java.dir" location="./src/najah/edu"/>
+  <property name="src.java.dir" location="./settings"/>
    <property name="result.dir" location=".target"/>
    <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
   <target name="compile">
