@@ -1,1 +1,10 @@
-
+<project deafault="compile">
+  <property name="src.java.dir" location="./src/najah/edu"/>
+   <property name="result.dir" location=".target"/>
+   <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
+  <target name="compile">
+    <mkdir dir="${result.dir}/classes"/>
+    <javac srcdir="${src.java.dir}" desdir="${result.dir}" debug="true" includeantruntime="false" >
+      <javac/>
+      <target/>
+    <project/>
